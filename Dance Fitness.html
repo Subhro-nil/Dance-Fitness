@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dance Fitness</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        .navbar{
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            background: white;
+            padding-bottom: 30px;
+            /* position: absolute; */
+            height: 70px;
+            width: 100vw;
+            box-shadow: -6px -6px 10px rgb(243, 115, 136), 
+            6px 6px 10px rgba(210, 211, 202, 0.664);
+        }
+        .navbar ul{
+            position: absolute;
+            margin-left: 300px;
+            margin-top: -10px;
+            overflow-x: visible;
+        }
+        .navbar ul li{
+            display: inline-block;
+            list-style-type: none;
+            padding: 0 40px 0 40px;
+        }
+        .navbar ul li:hover{
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        .navbar img{
+            /* background-color: red; */
+            position: absolute;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        .nonclp-icon{
+            /* position: absolute; */
+            /* margin: 20px; */
+            margin-top: 5px;
+        }
+        .text-icon{
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        .navbar .login{
+            position: absolute;
+            margin-left: 1100px;
+            margin-top: 10px;
+        }
+        .navbar .cart{
+            position: absolute;
+            margin-left: 1180px;
+            margin-top: 10px;
+        }
+        .mainimg{
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 200px;
+            background-size: cover;
+            height: 250px;
+            width: 370px;
+        }
+        .bodyr{
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 650px;
+            /* background-color: cornsilk; */
+            height: 850px;
+            width: 450px;
+        }
+        .bodyr pre{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .footer{
+            position: absolute;
+            margin-top: 1000px;
+            width: 100vw;
+            height: 350px;
+            background-color: black;
+        }
+        .part2 pre:hover{
+            cursor: pointer;
+        }
+        .part3 li:hover{
+            cursor: pointer;
+        }
+        .list1{
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 140px;
+        }
+        .list1 li{
+            color: #d8d8d8;
+            display: inline-block;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .list1 li:hover{
+            cursor: pointer;
+            color: white;
+        }
+        .list2 ul{
+            margin-left: 1000px;
+            margin-top: 50px;
+        }
+        .list2 li{
+            color: rgb(189, 182, 182);
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .list2 li:hover{
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="logo">
+        <ul>
+            <li class="nav-icons"><img alt="LIVE" src="https://static.cure.fit/assets/images/Livefit.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">LIVE</p></div></li>
+            <li class="nav-icons"><img style="height: 44px; width: 44px;" alt="CULT" src="https://static.cure.fit/assets/images/cult-icon.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">CULT</p></div></li>
+            <li class="nav-icons"><img style="height: 44px; width: 44px;"alt="EAT" src="https://static.cure.fit/assets/images/eat-icon.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">EAT</p></div></li>
+            <li class="nav-icons"><img style="height: 44px; width: 44px;"alt="MIND" src="https://static.cure.fit/assets/images/mind-icon.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">MIND</p></div></li>
+            <li class="nav-icons"><img style="height: 44px; width: 44px;"alt="CARE" src="https://static.cure.fit/assets/images/carefit-blk.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">CARE</p></div></li>
+            <li class="nav-icons"><img alt="STORE" src="https://static.cure.fit/assets/images/store-icon.svg" class="nonclp-icon"><div class="icon-text"><p class="text-icon">STORE</p></div></li>
+        </ul>
+        <img class="cart" src="https://static.cure.fit/assets/images/cart-image.svg" alt="cart-image">
+        <img class="login" src="https://static.cure.fit/assets/images/user-image.svg">    
+    </div>
+    <div class="bodyl">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_600,c_fit/dpr_2/v1/cult-media/v2web/workouts/84_id/PRODUCT_BNR_2020-02-04T13:04:53.343Z.png" alt="Workout-image" class="mainimg">
+    </div>
+    <div class="bodyr">
+        <pre>Home > Cult > At Center > Workout</pre>
+        <p style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 20px;">Dance Fitness</p>
+        <pre style="font-size: 15px; font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; font-weight: bold; margin-top: 20px; color: darkgray;">CALORIES                   INTENSITY</pre>
+        <img style="margin-top: 20px;" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_20,ar_0.78,c_fit/dpr_2/image/icons/cult/calorie.png" alt="550" height="30px" width="24px"><pre style="font-size: 15px; font-weight: bold; margin-top: -25px; margin-left: 20px;">  550</pre>
+        <ul style="position: absolute; margin-top: -20px; margin-left: 150px;">
+            <li style="display: inline-block; list-style-type: none;"><div style="height: 10px; width: 50px; background-color: black; border-bottom-left-radius: 100px; border-top-left-radius: 100px;"></div></li>
+            <li style="display: inline-block; list-style-type: none;"><div style="height: 10px; width: 50px; background-color: black; margin-left: 5px;"></div></li>
+            <li style="display: inline-block; list-style-type: none;"><div style="height: 10px; width: 50px; background-color: black; margin-left: 5px;"></div></li>
+        </ul>
+        <p style="margin-top: 30px; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">BENIFIT</p>
+        <p style="margin-top: 15px; font-family: Arial, Helvetica, sans-serif; color: darkgrey;">Stress reduction | Calorie Burning | Cardiovascular endurance</p>
+        <p style="margin-top: 20px; background-color: rgb(102, 102, 223); padding: 5px; border-radius: 100px; width: 60px; text-align: center; color: white; font-family: Arial, Helvetica, sans-serif;">Cardio</p>
+        <p style="margin-top: 20px; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">A typical DANCE FITNESS Session</p>
+        <p style="display: inline-block; position: absolute; margin-top: 20px; font-family: Arial, Helvetica, sans-serif; color: gray;">Begin</p>
+        <div style="display: inline-block; position: absolute; margin-top: 23px; height: 10px; width: 50px; background-color: #ff8a8c; border-bottom-left-radius: 100px; border-top-left-radius: 100px; margin-left: 50px;"></div>
+        <div style="display: inline-block; position: absolute; margin-top: 23px;height: 10px; width: 50px; background-color: #ffdc18; margin-left: 100px;"></div>
+        <div style="display: inline-block; position: absolute; margin-top: 23px;height: 10px; width: 170px; background-color: #00e5ff; margin-left: 150px;"></div>
+        <div style="display: inline-block; position: absolute; margin-top: 23px;height: 10px; width: 30px; background-color: #e7b6fe; margin-left: 320px;"></div>
+        <div style="display: inline-block; position: absolute; margin-top: 23px;height: 10px; width: 40px; background-color: #ff8a8c; margin-left: 350px; border-bottom-right-radius: 100px; border-top-right-radius: 100px;"></div>
+        <p style="display: inline-block; position: absolute; margin-top: 20px; margin-left: 400px; font-family: Arial, Helvetica, sans-serif; color: gray;">50 Min</p>
+        <div class="colorinfo" style=" margin-top: 70px;">
+            <div style="background-color: #ff8a8c; border-radius: 100px; height: 10px; width: 30px;"></div><pre style="font-size: 13px; color: gray; margin-left: 35px; margin-top: -12px;">8 Min</pre><pre style="font-size: 15px; margin-left: 85px; margin-top: -15px;">Warm Up</pre>
+            <div style="background-color: #ffdc18; border-radius: 100px; height: 10px; width: 30px; margin-top: 40px;"></div><pre style="font-size: 13px; color: gray; margin-left: 35px; margin-top: -12px;">7 Min</pre><pre style="font-size: 15px; margin-left: 85px; margin-top: -15px;">Dance form of the day</pre>
+            <div style="background-color: #00e5ff; border-radius: 100px; height: 10px; width: 30px; margin-top: 40px;"></div><pre style="font-size: 13px; color: gray; margin-left: 35px; margin-top: -12px;">25 Min</pre><pre style="font-size: 15px; margin-left: 85px; margin-top: -15px;">Main Workout</pre>
+            <div style="background-color: #e7b6fe; border-radius: 100px; height: 10px; width: 30px; margin-top: 40px;"></div><pre style="font-size: 13px; color: gray; margin-left: 35px; margin-top: -12px;">5 Min</pre><pre style="font-size: 15px; margin-left: 85px; margin-top: -15px;">Fun Challenge</pre>
+            <div style="background-color: #ff8a8c; border-radius: 100px; height: 10px; width: 30px; margin-top: 40px;"></div><pre style="font-size: 13px; color: gray; margin-left: 35px; margin-top: -12px;">5 Min</pre><pre style="font-size: 15px; margin-left: 85px; margin-top: -15px;">Cool Down</pre>
+        </div>
+        <button style="margin-bottom: 0; margin-top: 70px; margin-left: 270px; height: 40px; width: 180px; background: linear-gradient(to right ,red,rgb(236, 103, 103)); border-radius: 100px; color: white; font-size: 17px;">BOOK CLASS</button>
+        <hr style="position: relative; margin-top: 10px; background-color:#d8d8d8; height: 2px; width: 450px;">
+        <pre style="font-size: 15px; margin-top: 15px;">A full body aerobic workout, divided into different genres of music 
+providing peaks and troughs of intensity.</pre>
+    </div>
+    <div class="footer">
+         <div style="position:absolute; margin-top: 50px; margin-left: 150px; height: 200px; width: 320px; " class="part1">
+            <img src="https://static.cure.fit/assets/images/cult-logo-white.svg" height="150px" width="150px" style="position: absolute; margin-top: -15px;">
+            <pre style="position: absolute; margin-top: 100px; color: #d8d8d8; font-size: 15px; font-family: Arial, Helvetica, sans-serif; line-height: 20px;">At cult.fit, we make group workouts fun, 
+daily food healthy & tasty, mental fitness 
+easy with yoga & meditation, and medical & 
+lifestyle care hassle-free. #BeBetterEveryDay</pre>
+         </div>
+         <div class="part2">
+             <pre style="color: white; margin-left: 500px; margin-top: 50px; font-size: 20px; font-family: Arial, Helvetica, sans-serif; line-height: 40px; width: 400px;">CONTACT US     CULTFIT FOR BUSINESS
+       BLOG              CULT FRANCHISE
+PARTNER.FIT          CULT PASS NETWORK
+      TALKS       CORPORATE
+    CAREERS       PARTNERSHIP</pre>
+         </div>
+         <div style="position: absolute; margin-left: 1000px; margin-top: -200px;" class="part3">
+             <ul>
+                 <li><img src="https://static.cure.fit/assets/images/app-store.svg"></li>
+                 <li><img src="https://static.cure.fit/assets/images/play-store.svg"></li>
+             </ul>
+         </div>
+         <div class="part4">
+            <div class="list1">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms & conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                <li><i class="fa fa-facebook-f"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-youtube"></i></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
